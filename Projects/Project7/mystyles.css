@@ -22,7 +22,7 @@ body {
 /* ---- header ---- */
 #pageHeader {
   width: 900px;
-  height: 170px;
+  height: 250px;
   padding: 10px;
   background-color: #CFE8EF;
   border-bottom: 5px solid #D1345B;
@@ -67,7 +67,7 @@ body {
   width: 900px;
   padding: 20px 0;
   background-color: #CFE8EF;
-  background-image: url('Images/backimage.jpg');
+  background-image: url('images/booknow_white.png');
   background-repeat: repeat-y;
 }
 

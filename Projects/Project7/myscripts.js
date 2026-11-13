@@ -4,9 +4,9 @@
 function preloadImages() {
   var files = [
     "Images/Logo2.jpg",
-    "Images/Fullsize/full1.jpg",
-    "Images/Fullsize/full2.jpg",
-    "Images/Fullsize/full3.jpg"
+    "Honeymoon/CoupleBike2Lg.jpg",
+    "Honeymoon/CoupleCampingLg.jpg",
+    "Honeymoon/CoupleSnowBoardLg.jpg"
   ];
   window.preloaded = [];
   for (var i = 0; i < files.length; i++) {
@@ -18,10 +18,10 @@ function preloadImages() {
 
 /* Logo rollover */
 function logoOver() {
-  document.getElementById("logo").src = "Images/Logo2.jpg";
+  document.getElementById("logo").src = "images/Logo.png";
 }
 function logoOut() {
-  document.getElementById("logo").src = "Images/Logo.jpg";
+  document.getElementById("logo").src = "images/Logo1.png";
 }
 
 /* Thumbnail image swap */
