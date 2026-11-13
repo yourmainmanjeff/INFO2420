@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Extreme Honeymoons - Home</title>
+<link href="mystyles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="myscripts.js"></script>
+</head>
+<body onload="preloadImages()">
+<div id="container">
+
+<header id="pageHeader">
+  <a href="Home.html" id="logoLink"
+     onmouseover="logoOver()" onmouseout="logoOut()">
+    <img src="Images/Logo.jpg" id="logo" alt="Extreme Honeymoons logo" width="150" height="150">
+  </a>
+  <img src="Images/Banner.jpg" id="banner" alt="Extreme Honeymoons banner" width="450" height="150">
+  <nav id="mainNav">
+    <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="Tributes.html">Tributes</a></li>
+      <li><a href="Survey.html">Survey</a></li>
+      <li><a href="Favorites.html">Favorites</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="mainSection">
+  <article id="mainArticle">
+    <h1>Extreme Honeymoons Home Page</h1>
+
+    <p>Welcome to Extreme Honeymoons!</p>
+    <p>If you are just getting hitched, we can help make your honeymoon outrageous.</p>
+    <p>Take a look at our <a href="Favorites.html">Excursions</a> and take the opportunity to complete our <a href="Survey.html">survey</a>.</p>
+
+    <h2>Honeymoon Excursion Previews</h2>
+    <p>Move your mouse over a thumbnail to see the full-size photo.</p>
+    <div id="swapArea">
+      <div id="thumbs">
+        <img src="Images/Thumbnails/thumb1.jpg" alt="Excursion preview 1" width="100" height="75"
+             onmouseover="swapImage('Images/Fullsize/full1.jpg', 'Full-size excursion photo 1')">
+        <img src="Images/Thumbnails/thumb2.jpg" alt="Excursion preview 2" width="100" height="75"
+             onmouseover="swapImage('Images/Fullsize/full2.jpg', 'Full-size excursion photo 2')">
+        <img src="Images/Thumbnails/thumb3.jpg" alt="Excursion preview 3" width="100" height="75"
+             onmouseover="swapImage('Images/Fullsize/full3.jpg', 'Full-size excursion photo 3')">
+      </div>
+      <img src="Images/Fullsize/full1.jpg" id="fullsize" alt="Full-size excursion photo 1" width="450" height="338">
+    </div>
+
+    <h2>Mini Tribute</h2>
+    <div id="miniTribute">
+      <img src="Images/CoupleSkiing.jpg" alt="Couple skiing down a mountain" width="200" height="150">
+      <p>Nothing says &quot;just married&quot; like racing your new spouse down a fresh powder slope. This couple traded the beach for the backcountry and came home with stories they still tell at every dinner party. <a href="Tributes.html">more &gt;&gt;</a></p>
+    </div>
+  </article>
+</section>
+
+<footer id="pageFooter">
+  <p><a href="mailto:yourname@example.com">Webmaster: yourname@example.com</a></p>
+  <p>This web site has been created solely for educational purposes.</p>
+</footer>
+
+</div>
+</body>
+</html>

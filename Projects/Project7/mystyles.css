@@ -1,0 +1,125 @@
+/* mystyles.css - external style sheet for Extreme Honeymoons
+   Palette: deep ocean #0A2E40, glacier #CFE8EF, sunrise #F2994A, magenta #D1345B, white #FFFFFF */
+
+/* ---- Paste your AboutUs.html / Tributes.html embedded styles here ---- */
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: #0A2E40;
+  color: #14222B;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* ---- header ---- */
+#pageHeader {
+  width: 900px;
+  height: 170px;
+  padding: 10px;
+  background-color: #CFE8EF;
+  border-bottom: 5px solid #D1345B;
+  overflow: hidden;
+}
+#logoLink, #logo { display: block; }
+#logoLink { float: left; width: 150px; }
+#banner { float: left; margin-left: 10px; }
+
+/* ---- nav (30% of header, floated right) ---- */
+#mainNav {
+  float: right;
+  width: 30%;
+}
+#mainNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#mainNav li { margin: 0 0 4px 0; }
+#mainNav a {
+  display: block;
+  padding: 4px 10px;
+  background-color: #0A2E40;
+  color: #FFFFFF;
+  font-size: 1.15em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #0A2E40;
+  border-radius: 8px;
+}
+#mainNav a:hover,
+#mainNav a:focus {
+  background-color: #F2994A;
+  color: #0A2E40;
+  border-color: #D1345B;
+}
+
+/* ---- section ---- */
+#mainSection {
+  width: 900px;
+  padding: 20px 0;
+  background-color: #CFE8EF;
+  background-image: url('Images/backimage.jpg');
+  background-repeat: repeat-y;
+}
+
+/* ---- article ---- */
+#mainArticle {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background-color: #FFFFFF;
+  border: 2px solid #0A2E40;
+}
+#mainArticle h1 { color: #D1345B; margin-top: 0; }
+#mainArticle h2 { color: #0A2E40; border-bottom: 2px solid #F2994A; padding-bottom: 2px; }
+#mainArticle p { text-align: left; max-width: 70ch; }
+#mainArticle a { color: #D1345B; }
+#mainArticle a:hover { color: #0A2E40; }
+
+/* thumbnail swap */
+#swapArea { overflow: hidden; }
+#thumbs { float: left; width: 120px; }
+#thumbs img {
+  display: block;
+  margin-bottom: 8px;
+  border: 2px solid #0A2E40;
+}
+#thumbs img:hover { border-color: #F2994A; }
+#fullsize {
+  float: left;
+  margin-left: 20px;
+  max-width: 560px;
+  height: auto;
+  border: 2px solid #0A2E40;
+}
+
+/* mini tribute */
+#miniTribute { overflow: hidden; }
+#miniTribute img {
+  float: left;
+  margin: 0 20px 10px 0;
+  border: 2px solid #0A2E40;
+}
+
+/* ---- footer ---- */
+#pageFooter {
+  width: 900px;
+  height: 100px;
+  padding: 15px 10px;
+  background-color: #D1345B;
+  color: #FFFFFF;
+  text-align: center;
+  border-top: 5px solid #F2994A;
+}
+#pageFooter p { margin: 4px 0; }
+#pageFooter a { color: #FFFFFF; }
+#pageFooter a:hover { color: #0A2E40; }
